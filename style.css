@@ -225,16 +225,14 @@ header {
   text-indent: 25px;
   outline: none;
     border: none;
+  font-size: 16px;
 }
 
 #about_info .Rectangle-3-Copy input::placeholder {
   font-family: 'Robotolight';
   font-size: 16px;
   font-weight: 300;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  
   color: #464646;
   height: 100%;
 }
