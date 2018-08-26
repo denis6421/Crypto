@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>SEARCH ICON</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1507.000000, -443.000000)" fill="#FFFFFF">
+            <g id="search-icon" transform="translate(1488.000000, 427.000000)">
+                <g id="SEARCH-ICON" transform="translate(19.000000, 16.000000)">
+                    <path d="M11.792172,7.22473937 C12.5510609,8.2873411 13,9.58579752 13,10.991 C13,14.581 10.09,17.491 6.5,17.491 C2.91,17.491 0,14.581 0,10.991 C0,7.401 2.91,4.491 6.5,4.491 C7.91409854,4.491 9.21932849,4.94487473 10.2854562,5.71164963 C10.2893235,5.71443107 15.999,0 15.999,0 L17.49,1.491 C17.49,1.491 11.791802,7.22422129 11.792172,7.22473937 Z M6.5,6.491 C4.014,6.491 2,8.505 2,10.991 C2,13.476 4.014,15.491 6.5,15.491 C8.985,15.491 11,13.476 11,10.991 C11,8.505 8.985,6.491 6.5,6.491 L6.5,6.491 Z" id="Mask" transform="translate(8.745000, 8.745500) scale(1, -1) translate(-8.745000, -8.745500) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="991px" height="1193px" viewBox="0 0 991 1193" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 5 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1099.46071,994.671053 C1185.42803,923.395006 1320.51395,858.806333 1504.71848,800.905035 C1586.47154,775.207464 1725.06138,728.572452 1920.488,661 L1920.488,1846.45169 C1468.62231,1809.85717 1182.80817,1746.60278 1063.04558,1656.68851 C883.401686,1521.81711 884.663811,1172.76052 1099.46071,994.671053 Z" id="path-1"></path>
+        <filter x="-0.7%" y="-0.4%" width="101.4%" height="101.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-929.000000, -659.000000)" fill-rule="nonzero">
+            <g id="Rectangle-5-Copy-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

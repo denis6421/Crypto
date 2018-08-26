@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="704px" height="779px" viewBox="0 0 704 779" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 2 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="101.999998%" y2="100.999999%" id="linearGradient-1">
+            <stop stop-color="#3023AE" offset="0%"></stop>
+            <stop stop-color="#C86DD7" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1216.000000, 0.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M1829.91444,0 C1937.33177,245.757951 1948.6864,402.146011 1863.97834,469.164179 C1779.27028,536.182347 1563.2775,639.460954 1216,779 L1216,0 L1829.91444,0 Z" id="Path-2-Copy" transform="translate(1568.000000, 389.500000) scale(-1, 1) translate(-1568.000000, -389.500000) "></path>
+        </g>
+    </g>
+</svg>

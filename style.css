@@ -1,0 +1,661 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+button {
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Robotolight;
+  src: url(fonts/roboto.light.ttf);
+}
+
+@font-face {
+  font-family: Robotothin;
+  src: url(fonts/roboto.thin.ttf);
+}
+
+@font-face {
+  font-family: Robotoregular;
+  src: url(fonts/roboto.regular.ttf);
+}
+
+@font-face {
+  font-family: Robotobold;
+  src: url(fonts/roboto.bold.ttf);
+}
+
+@font-face {
+  font-family: Robotomedium;
+  src: url(roboto.medium.ttf);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.Artboard {
+  width: 100%;
+  height: 2903px;
+  margin: auto;
+}
+
+.Rectangle {
+  width: 100%;
+  height: 2903px;
+  opacity: 0.9;
+  position: relative;
+  background-image: linear-gradient(138deg, #3023ae, #c86dd7);
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  z-index: 40;
+}
+
+.menu_box {
+  position: absolute;
+  width: 42px;
+  height: 32px;
+  right: 20px;
+  top: 26px;
+  cursor: pointer;
+  display: none;
+}
+
+.menu_box .menu {
+  width: 42px;
+  height: 32px;
+  object-fit: contain;
+}
+
+.Company-name {
+  width: 252px;
+  height: 42px;
+  font-family: 'Robotoregular';
+  font-size: 36px;
+  font-weight: bold;
+
+  color: #ffffff;
+  position: absolute;
+  top: 42px;
+  left: 375px;
+  margin: 0px;
+}
+
+.Rectangle-2 {
+  width: 171px;
+  height: 42px;
+  border-radius: 41.5px;
+  background-color: #00a9ff;
+  position: absolute;
+  top: 42px;
+  right: 111px;
+  font-family: 'Robotoregular';
+  font-size: 20px;
+
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
+
+#about_info {
+  width: 1178px;
+  height: auto;
+  position: absolute;
+  top: 203px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  z-index: 20;
+  color: white;
+}
+
+#about_info .CryptoWorld {
+  width: 778px;
+  height: 169px;
+  font-family: 'Robotothin';
+  margin: auto;
+  font-size: 144px;
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  color: var(--red);
+  margin-bottom: 55px;
+}
+
+#about_info .Rectangle-3-Copy {
+  width: 1178px;
+  height: 50px;
+  border-radius: 41.5px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 81px;
+}
+
+#about_info .Rectangle-3-Copy input {
+  width: calc(100% - 61px);
+  text-indent: 25px;
+  outline: none;
+}
+
+#about_info .Rectangle-3-Copy input::placeholder {
+  font-family: 'Robotolight';
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #464646;
+  height: 100%;
+}
+
+#about_info .progress-bar-2 {
+  width: 61px;
+  height: 50px;
+  object-fit: contain;
+  background-color: #00a9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about_info .SEARCH-ICON {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+#about_info .Lorem-ipsum-dolor-si {
+  width: 968px;
+  height: 118px;
+  font-family: 'RobotoRegular';
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  color: var(--red);
+  margin: auto;
+  padding: 0px 10px 0px 10px;
+}
+
+#Dots {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  right: 111px;
+  top: 322px;
+  z-index: 30;
+}
+
+#Dots .Oval {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  background-color: #ffffff;
+  background-color: var(--red);
+  margin-bottom: 15px;
+}
+
+#Dots .Oval-Copy {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  border: solid 1px #ffffff;
+  border: solid 1px var(--red);
+  margin-bottom: 15px;
+}
+
+.test {
+  background: transparent;
+  width: 100%;
+  height: 1520px;
+  position: absolute;
+  top: 0;
+}
+
+#path2 {
+  background: url('img/path-2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 976px;
+  height: 1080px;
+  z-index: 10;
+}
+
+.Path-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#path2_copy {
+  background: url('img/path-2-copy.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 704px;
+  height: 779px;
+}
+
+.Path-2-Copy {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+#rectangle_5_2 {
+  background: url('img/rectangle-5-copy-2.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 942px;
+  height: 1165px;
+  position: absolute;
+  top: 747px;
+  left: 0px;
+  right: auto;
+}
+
+.Rectangle-5-Copy-2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+#rectangle_5_3 {
+  background: url('img/rectangle-5-copy-3.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 987px;
+  height: 1185px;
+  position: absolute;
+  top: 661px;
+  right: 0px;
+  z-index: 20;
+}
+
+.Rectangle-5-Copy-3 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #ffffff;
+}
+
+.lorem_content {
+  width: 430px;
+  height: auto;
+  position: absolute;
+  overflow: hidden;
+}
+
+.lorem_content .Lorem-ipsum-dolor-si-Copy-3 {
+  width: 367px;
+  height: 83px;
+  font-family: 'Robotoregular';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00a9ff;
+  overflow: hidden;
+  margin-bottom: 45px;
+}
+
+.lorem_content div {
+  width: 430px;
+  display: flex;
+  height: 77px;
+  border-bottom: 1px solid #00a9ff;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.lorem_content div:last-child {
+  border: none;
+}
+
+.lorem_content .Lorem-ipsum-dolor-si-Copy-5, .Lorem-ipsum-dolor-si-Copy-6, .Lorem-ipsum-dolor-si, .Lorem-ipsum-dolor-si-Copy-7 {
+  width: 382px;
+  height: 50px;
+  font-family: 'Robotoregular';
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #464646;
+  overflow: hidden;
+}
+
+.lorem_content .Oval-3-Copy-4 .Oval-3-Copy-11 .Oval-3-Copy-12 .Oval-3-Copy-13 .Oval-3-Copy-14 {
+  width: 25px;
+  height: 25px;
+  background-color: #00a9ff;
+}
+
+#left_lorem_content {
+  top: 972px;
+  left: 375px;
+}
+
+#right_lorem_content {
+  top: 1089px;
+  right: 378px;
+  z-index: 60;
+}
+
+.question_box {
+  width: 200px;
+  height: 154px;
+  text-align: left;
+  position: absolute;
+  top: 1259px;
+  left: 0px;
+  right: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 40;
+}
+
+.Group-17 {
+  width: 154px;
+  height: 154px;
+  object-fit: contain;
+}
+
+#Rectangle-3 {
+  width: 100%;
+  height: 670px;
+  background-color: #623bbb;
+  z-index: 300;
+  position: absolute;
+  top: 1912px;
+}
+
+#Rectangle-3 .Lorem-ipsum-dolor-si-Copy-14 {
+  width: 482px;
+  height: 59px;
+  font-family: 'Robotoregular';
+  font-size: 48px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-top: 97px;
+  margin-bottom: 10px;
+}
+
+#Rectangle-3 .Lorem-ipsum-dolor-si-Copy-15 {
+  width: 450px;
+  height: 42px;
+  font-family: 'Robotoregular';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+#Rectangle-3 .Lorem-ipsum-dolor-si-Copy-2 {
+  width: 901px;
+  height: 169px;
+  font-family: 'Robotoregular';
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 70px;
+}
+
+#Rectangle-3 .button_box {
+  margin: auto;
+  width: 540px;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#Rectangle-3 .Oval-2 {
+  width: 64px;
+  height: 64px;
+  background-color: #00a9ff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  font-family: 'Robotoregular';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00a9ff;
+  border-radius: 180px;
+  outline: none;
+  color: white;
+}
+
+#Rectangle-3 .Oval-2-Copy, .Oval-2-Copy-2, .Oval-2-Copy-3, .Oval-2-Copy-4 {
+  width: 64px;
+  height: 64px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 180px;
+  outline: none;
+  font-family: 'Robotoregular';
+  font-size: 36px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #00a9ff;
+}
+
+.Powered-by-hidden {
+  width: 322px;
+  font-size: 14px;
+  position: absolute;
+  bottom: 100px;
+  font-family: 'Robotoregular';
+  margin: auto;
+  color: white;
+  display: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  display: none;
+}
+
+.hidden_block {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 2167px;
+  display: none;
+}
+
+.group-17_2 {
+  width: 100%;
+  height: 314px;
+  object-fit: contain;
+  transform: rotate(-180deg);
+}
+
+.Rectangle-5 {
+  width: 100%;
+  height: 321px;
+  background-color: #000000;
+  border: solid 1px #979797;
+  position: absolute;
+  top: 2582px;
+}
+
+.Rectangle-5_flex {
+  display: flex;
+  justify-content: space-between;
+  width: 1053px;
+  height: 170px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+
+.Rectangle-5_flex div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.Rectangle-5_flex .Lorem-ipsum-dolor-Copy-4 {
+  width: auto;
+  height: 22px;
+  font-family: 'Robotoregular';
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.Rectangle-5_flex .Lorem-ipsum-dolor {
+  width: 134px;
+  height: 22px;
+  font-family: 'Robotoregular';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.Powered-by-Companyn {
+  display: flex;
+  margin: auto;
+  width: 368px;
+  height: 22px;
+  text-align: center;
+}
+
+.Powered-by-Companyn p {
+  font-family: 'Robotoregular';
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Powered-by-Companyn p:last-child {
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.Rectangle-5-Copy-4 {
+  width: 375px;
+  height: 1074px;
+  object-fit: contain;
+  position: absolute;
+  top: 532px;
+  display: none;
+  z-index: 10;
+  right: -15px;
+}
+
+.Rectangle-5-Copy-5 {
+  width: 375px;
+  height: 947px;
+  object-fit: contain;
+  position: absolute;
+  top: 1283px;
+  display: none;
+  z-index: 10;
+  left: -15px;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="50px" viewBox="0 0 60 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>progress bar 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-295.000000, -280.000000)" fill="#00A9FF">
+            <g id="Group" transform="translate(20.000000, 280.000000)">
+                <g id="search-icon-copy" transform="translate(275.000000, 0.000000)">
+                    <path d="M0,50 L0,0 L35.4098361,0 C48.9906086,2.53632657e-15 60,11.1928813 60,25 C60,38.8071187 48.9906086,50 35.4098361,50 L0,50 Z" id="progress-bar-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
