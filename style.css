@@ -264,7 +264,7 @@ header {
 }
 
 #path2 {
-  background: url('img/path-2.svg');
+    background: url('img/Path-2.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -283,7 +283,7 @@ header {
 }
 
 #path2_copy {
-  background: url('img/path-2-copy.svg');
+  background: url('img/Path-2-copy.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
