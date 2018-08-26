@@ -537,7 +537,9 @@ justify-content: space-between;
   right: 0;
   display: none;
 }
-
+.Powered-by-hidden p:last-child{
+  margin-left:4px;
+}
 .hidden_block {
   width: 100%;
   height: auto;
