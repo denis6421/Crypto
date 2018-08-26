@@ -496,15 +496,14 @@ justify-content: space-between;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
   font-family: 'Robotoregular';
   font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+  
   color: #00a9ff;
   border-radius: 180px;
   outline: none;
   color: white;
+      display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Rectangle-3 .Oval-2-Copy, .Oval-2-Copy-2, .Oval-2-Copy-3, .Oval-2-Copy-4 {
@@ -516,11 +515,9 @@ justify-content: space-between;
   outline: none;
   font-family: 'Robotoregular';
   font-size: 36px;
-  font-weight: normal;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
+      display: flex;
+    justify-content: center;
+    align-items: center;
   color: #00a9ff;
 }
 
