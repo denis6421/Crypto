@@ -135,6 +135,50 @@ header {
   outline: none;
 }
 
+.test {
+  background: transparent;
+  width: 100%;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  display: flex;
+}
+
+#path2 {
+  background: url('img/Path-2.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+
+  width: 976px;
+  height: 1080px;
+  z-index: 10;
+  margin-right: 200px;
+}
+
+.Path-2 {
+  width: 976px;
+  height: 1080px;
+  object-fit: contain;
+}
+
+#path2_copy {
+  background: url('img/Path-2-Copy.svg');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+
+  width: 704px;
+  height: 779px;
+  z-index:10;
+  margin-left: auto;
+}
+
+.Path-2-Copy {
+  width: 704px;
+  height: 779px;
+  object-fit: contain;
+}
 #about_info {
   width: 1178px;
   height: auto;
@@ -160,7 +204,6 @@ header {
   line-height: normal;
   letter-spacing: normal;
   color: #ffffff;
-  color: var(--red);
   margin-bottom: 55px;
 }
 
@@ -181,6 +224,7 @@ header {
   width: calc(100% - 61px);
   text-indent: 25px;
   outline: none;
+    border: none;
 }
 
 #about_info .Rectangle-3-Copy input::placeholder {
@@ -223,9 +267,10 @@ header {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  color: var(--red);
+
   margin: auto;
   padding: 0px 10px 0px 10px;
+  z-index: 30;
 }
 
 #Dots {
@@ -255,91 +300,41 @@ header {
   margin-bottom: 15px;
 }
 
-.test {
-  background: transparent;
-  width: 100%;
-  height: 1520px;
-  position: absolute;
-  top: 0;
-}
+.middle{
+width: 100%;
+height: 1185px;
+position: absolute;
+top: 661px;
+display: flex;
+justify-content: space-between;
 
-#path2 {
-    background: url('img/Path-2.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  width: 976px;
-  height: 1080px;
-  z-index: 10;
 }
-
-.Path-2 {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-#path2_copy {
-  background: url('img/Path-2-Copy.svg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  width: 704px;
-  height: 779px;
-  z-index:10;
-}
-
-.Path-2-Copy {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
 #rectangle_5_2 {
   background: url('img/rectangle-5-copy-2.svg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position: right;
+  background-size: cover;
   width: 942px;
   height: 1165px;
-  position: absolute;
-  top: 747px;
-  left: 0px;
-  right: auto;
+  margin-top: 86px;
+
 }
 
-.Rectangle-5-Copy-2 {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background-color: #ffffff;
-}
 
 #rectangle_5_3 {
   background: url('img/rectangle-5-copy-3.svg');
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
+  background-position:  left;
+  background-size:  auto;
   width: 987px;
+
   height: 1185px;
-  position: absolute;
-  top: 661px;
-  right: 0px;
+
   z-index: 20;
+
+
 }
 
-.Rectangle-5-Copy-3 {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background-color: #ffffff;
-}
 
 .lorem_content {
   width: 430px;
@@ -638,25 +633,27 @@ header {
   font-weight: 500;
   margin-left: 3px;
 }
-
-.Rectangle-5-Copy-4 {
-  width: 375px;
+.mobile_Rectangle_right{
   height: 1074px;
-  object-fit: contain;
   position: absolute;
   top: 532px;
   display: none;
-  z-index: 10;
   right: -15px;
+  z-index: 10;
 }
-
-.Rectangle-5-Copy-5 {
-  width: 375px;
-  height: 947px;
+.Rectangle-5-Copy-4 {
   object-fit: contain;
+}
+.mobile_Rectangle_left{
+  height: 947px;
   position: absolute;
   top: 1283px;
   display: none;
-  z-index: 10;
   left: -15px;
+  z-index: 10;
+  display: none;
+}
+.Rectangle-5-Copy-5 {
+object-fit: contain;
+
 }
