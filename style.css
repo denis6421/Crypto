@@ -638,7 +638,7 @@ justify-content: space-between;
   position: absolute;
   top: 532px;
   display: none;
-  right: -15px;
+  right: 0px;
   z-index: 10;
 }
 .Rectangle-5-Copy-4 {
@@ -649,7 +649,7 @@ justify-content: space-between;
   position: absolute;
   top: 1283px;
   display: none;
-  left: -15px;
+  left: 0px;
   z-index: 10;
   display: none;
 }
