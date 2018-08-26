@@ -106,7 +106,7 @@ header {
 }
 
 .Company-name {
-  width: 252px;
+  width: auto;
   height: 42px;
   font-family: 'Robotoregular';
   font-size: 36px;
@@ -432,7 +432,7 @@ justify-content: space-between;
 }
 
 #Rectangle-3 .Lorem-ipsum-dolor-si-Copy-14 {
-  width: 482px;
+  width: auto;
   height: 59px;
   font-family: 'Robotoregular';
   font-size: 48px;
@@ -449,7 +449,7 @@ justify-content: space-between;
 }
 
 #Rectangle-3 .Lorem-ipsum-dolor-si-Copy-15 {
-  width: 450px;
+  width: auto;
   height: 42px;
   font-family: 'Robotoregular';
   font-size: 36px;
